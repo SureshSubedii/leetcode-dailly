@@ -36,9 +36,7 @@ function fractionAddition(expression) {
         result.denominator /= commonDivisor;
     }
 
-    if (result.denominator === 1) {
-        return `${result.numerator}/1`;
-    }
+  
 
     return `${result.numerator}/${result.denominator}`;
 }
